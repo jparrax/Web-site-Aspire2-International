@@ -1,6 +1,6 @@
-# Web site Aspire2 Internationl
+# Web site Aspire2 International
 
-This web site was the first assignment of internet programming in Aspire 2 International. It is a simple, dinamic and interactive web application in which is displayed the understanding of the front-end languages(HTML,CSS,JavaScript), frameworks(Boostrap) and libraries(JQuery). It is expected to show visual creativity and good design skills. 
+This web site was the first assignment of internet programming in Aspire 2 International. It is a simple, dynamic and interactive web application in which is displayed the understanding of the front-end languages(HTML,CSS,JavaScript), frameworks(Bootstrap) and libraries(JQuery). It is expected to show visual creativity and good design skills. 
 
 ## Getting Started
 
