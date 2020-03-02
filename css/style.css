@@ -1,0 +1,117 @@
+/* General */
+
+  /* Header */
+
+  .header-left{
+
+    padding-left: 2%;
+    text-align: left;
+    background: transparent;
+  } 
+
+  .header-rigth{
+
+    padding-right: 2%;
+    padding-top: 4%;
+    color: black;
+    text-shadow: 2px 2px white;
+    text-align: right;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    /* opacity: 0.7; */
+    background: transparent;
+  }
+
+  /* Nav Menu */
+
+  .side-nav {
+    
+    background-image: url(https://www.hammondfarms.com/wp-content/uploads/2015/04/beach-sand.jpeg);
+    background-position: center;
+    border: 2px solid black;
+    height: 460px;
+    padding-top: 3%;
+  }
+
+  .side-nav p{
+
+    padding: 6px 8px 6px 16px;
+    font-size: 150%;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px black;
+  }
+
+  .side-nav a{
+
+    padding: 6px 8px 6px 16px;
+    font-size: 150%;
+    color: white;
+  }
+
+/* General */
+/* -------------------------------------------------------------------------------------------------------------------- */
+/* Index */
+
+  .body-index{
+
+      background-image: url(https://papers.co/wallpaper/papers.co-mt84-sea-dive-wave-dark-summer-ocean-nature-bw-29-wallpaper.jpg);
+  }
+
+  /* Header */
+  /* Nav Menu */
+  /* Content */
+
+  div.col-md-10.content{
+
+    background-image: url(https://wallpapercave.com/wp/kU1yXJS.jpg);
+    background-position: center;
+    border: 2px solid black;
+    height: 460px;
+    overflow: auto;
+  }
+
+  .col-md-10.content h1{
+
+    color: white; 
+    text-shadow: 3px 3px black;
+  }
+
+  .container-text{
+
+    color: white;
+  }
+  /* Footer */
+/* Index */
+/* -------------------------------------------------------------------------------------------------------------------- */
+/* Second */
+
+  .body-second{
+    
+    background-color: rgb(190,193,178);
+  }
+
+  /* Header */
+  /* Nav menu */
+  /* Content */
+
+  div.col-md-10.content-second{
+
+    background-color: rgb(242,233,233);
+    border: 2px solid black;
+    height: 460px;
+    overflow: auto;
+  }
+
+  .nav-pills a{
+
+    color: black;
+    font-weight: bold;
+  }
+
+  .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #d9d9d9;
+  } 
+  /* Footer */
+/* Second */
