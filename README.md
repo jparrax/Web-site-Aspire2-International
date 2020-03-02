@@ -1,6 +1,6 @@
-# Project Title
+# Web site Aspire2 Internationl
 
-One Paragraph of project description goes here
+This web site was the first assignment of internet programming in Aspire 2 International. It is a simple, dinamic and interactive web application in which is displayed the understanding of the front-end languages(HTML,CSS,JavaScript), frameworks(Boostrap) and libraries(JQuery). It is expected to show visual creativity and good design skills. 
 
 ## Getting Started
 
@@ -8,38 +8,21 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+We included in our file the required css and js files to work with Bootstrap 4 and JQuery.
 
 ```
-Give examples
+<!--CSS-->
+<link rel="stylesheet" href="../css/bootstrap.min.css" />
+<!--JS-->
+<script src="../js/jquery.min.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+Just clone this repository and run the code in your elected IDE to edit, or open index.html located in source to see the web site.
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Juan Fernando Parra Cadavid** - *Initial work* - [jparrax](https://github.com/jparrax)
