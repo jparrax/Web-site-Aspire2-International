@@ -1,0 +1,120 @@
+<html>
+
+<head>
+    <title>Home</title>
+
+    <!-- Prerequisites-->
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body class="body-index">
+
+    <div class="container-fluid">
+
+        <!-- Header -->
+        <div class="row header">
+
+            <div class="col-md-6 header-left"> <img
+                    src="https://www.savethewaves.org/wp-content/uploads/bfi_thumb/liaw_art_square-o4qe9v7sw06s2geubbnx8uk5hy1wgh88nv5e5g64q0.png"
+                    width="85px" height="85px"></img> </div>
+            <div class="col-md-6 header-rigth"> Assignment 1/Internet Programming/Aspire2 International </div>
+        </div>
+        <div class="row">
+            <!-- Navigation menu -->
+
+            <div class="col-md-2 side-nav">
+
+                <p>Navigation</p>
+                <a href="./index.html" id="nav_home">Home</a><br>
+                <a href="./second.html" id="nav_second">Second</a>
+            </div>
+
+            <!-- Content area -->
+            <div class="col-md-10 content">
+
+                <!-- Text -->
+                <h1>Text</h1>
+
+                <p class="container-text">Lido is a large village on the north-western coast of Papua New Guinea, close
+                    to Vanimo, and approximately 45 minutes drive from the border with Indonesia. It is located in
+                    Bewani-Wutung Onei Rural LLG. The village forms a stereotypical tropical village, including coconut
+                    trees and grass-roofed huts.</p>
+                <p class="container-text">From October to February there is a reasonable surf, and despite its
+                    isolation, surfing travellers are slowly becoming aware of its potential. Locals claim their
+                    ancestors invented surfing using body boards.</p>
+                <!-- Video -->
+                <h1>Video</h1>
+
+                <iframe width="1100" height="390" src="https://www.youtube.com/embed/eVriiWwzlMg" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <!-- Form -->
+                <h1>Contact us</h1>
+
+                <div class="container">
+                    <form id="contactForm" method="post">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="fname" class="container-text">First name:</label>
+                                    <input type="text" class="form-control" id="fname" placeholder="Enter first name"
+                                        oninput="validInput(0)" onblur="actual(0)">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="lname" class="container-text">Last name:</label>
+                                    <input type="text" class="form-control" id="lname" placeholder="Enter last name"
+                                        oninput="validInput(1)" onblur="actual(1)">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="container-text">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter Email"
+                                oninput="validInput(2)" onblur="actual(2)">
+                        </div>
+                        <div class="form-group">
+                            <label for="contactnumber" class="container-text">Contact number:</label>
+                            <input type="text" class="form-control" id="contactnumber"
+                                placeholder="Enter contact number" oninput="validInput(3)" onblur="actual(3)">
+                        </div>
+                        <div class="form-group">
+                            <label for="msg" class="container-text">Message:</label>
+                            <textarea class="form-control" rows="5" id="msg" oninput="validInput(4)"
+                                onblur="actual(4)"></textarea>
+                        </div>
+                        <div class="row">
+                            <div class="col-2"> <button type="button" class="btn btn-primary"
+                                    onclick="mySubmit()">Submit</button></div>
+                            <div class="col-2"> <button type="button" class="btn btn-primary"
+                                    onclick="myReset()">Reset</button></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="row footer">
+
+            <div class="col-md">
+                <h1 style="color:black; text-shadow: 2px 2px white; text-align: center; ">Juan Fernando Parra</h1>
+            </div>
+        </div>
+    </div>
+</body>
+<!--JS-->
+<script src="./js/jquery.min.js"></script>
+<script src="./js/popper.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/myscript.js"></script>
+
+</html>

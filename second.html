@@ -1,0 +1,221 @@
+<html>
+
+<head>
+
+    <title>Second</title>
+
+    <!-- Prerequisites-->
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body class="body-second">
+
+    <div class="container-fluid">
+
+        <!-- Header -->
+        <div class="row header">
+            <div class="col-md-6 header-left"> <img
+                    src="https://www.savethewaves.org/wp-content/uploads/bfi_thumb/liaw_art_square-o4qe9v7sw06s2geubbnx8uk5hy1wgh88nv5e5g64q0.png"
+                    width="85px" height="85px"></img> </div>
+            <div class="col-md-6 header-rigth"> Assignment 1/Internet Programming/Aspire2 International </div>
+        </div>
+
+
+        <div class="row">
+
+            <!-- Navigation menu -->
+            <div class="col-md-2 side-nav">
+
+                <p>Navigation</p>
+                <a href="./index.html" id="nav_home">Home</a><br>
+                <a href="./second.html" id="nav_second">Second</a>
+            </div>
+
+            <!-- Content area -->
+            <div class="col-md-10 content-second">
+
+                <!-- Tabs -->
+                <div class="container mt-3">
+
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#text">Text</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#images">Images</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#form">Form</a>
+                        </li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+
+                        <!-- Text -->
+                        <div id="text" class="container tab-pane active"><br>
+
+                            <h3>Waves</h3>
+                            <p>
+                                In fluid dynamics, wind waves, or wind-generated waves, are water surface waves that
+                                occur on the free surface of bodies of water.
+                                They result from the wind blowing over an area of fluid surface. Waves in the oceans can
+                                travel thousands of miles before reaching land.
+                                Wind waves on Earth range in size from small ripples, to waves over 100 ft (30 m) high.
+                            </p>
+                            <br>
+                            <p>
+                                When directly generated and affected by local waters, a wind wave system is called a
+                                wind sea.
+                                After the wind ceases to blow, wind waves are called swells. More generally, a swell
+                                consists of wind-generated waves that are not significantly affected by the local wind
+                                at that time.
+                                They have been generated elsewhere or some time ago. Wind waves in the ocean are called
+                                ocean surface waves.
+                            </p>
+                            <br>
+                            <p>
+                                Wind waves have a certain amount of randomness: subsequent waves differ in height,
+                                duration, and shape with limited predictability.
+                                They can be described as a stochastic process, in combination with the physics governing
+                                their generation, growth, propagation, and decay—as well as governing the
+                                interdependence between flow quantities such as: the water surface movements, flow
+                                velocities and water pressure.
+                                The key statistics of wind waves (both seas and swells) in evolving sea states can be
+                                predicted with wind wave models.
+                            </p>
+                            <br>
+                            <p>
+                                Although waves are usually considered in the water seas of Earth, the hydrocarbon seas
+                                of Titan may also have wind-driven waves.
+                            </p>
+                        </div>
+
+                        <!-- Images -->
+                        <div id="images" class="container tab-pane fade"><br>
+
+                            <h3>Images</h3>
+                            <br>
+                            <div class="row">
+                                <div class="col-md"> <img
+                                        src="https://i.pinimg.com/564x/c5/57/95/c557957ed785ec5ad32e9a5ce1d59bdf.jpg"
+                                        width="300" height="300"></div>
+                                <div class="col-md"> <img
+                                        src="https://i.pinimg.com/564x/79/ce/b3/79ceb34c170259c12265d07c65c22faa.jpg"
+                                        width="300" height="300"></div>
+                                <div class="col-md"> <img
+                                        src="https://i.pinimg.com/564x/c3/63/c7/c363c7684bbfa1f59692711f4a4ea136.jpg"
+                                        width="300" height="300"></div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-md"> <img
+                                        src="https://i.pinimg.com/564x/ae/7e/25/ae7e25f3eeb09c8b38e625224f05061c.jpg"
+                                        width="300" height="300"></div>
+                                <div class="col-md"> <img
+                                        src="https://i.pinimg.com/564x/87/ff/07/87ff072ea4f2276b8c4a51d7372bb54e.jpg"
+                                        width="300" height="300"></div>
+                                <div class="col-md"> <img
+                                        src="https://i.pinimg.com/564x/64/40/9c/64409c74116f616ad943435cc491c383.jpg"
+                                        width="300" height="300"></div>
+                            </div>
+                            <br>
+                        </div>
+
+                        <!-- Form -->
+                        <div id="form" class="container tab-pane fade">
+
+                            <br>
+                            <h3>Payment</h3>
+                            <br>
+                            <div class="container">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="name">Name:</label>
+                                        <input type="text" class="form-control" id="name" placeholder="Enter name"
+                                            oninput="validInputSecond(0)" onblur="actual(0)">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="address">Address:</label>
+                                        <input type="text" class="form-control" id="address" placeholder="Enter Address"
+                                            oninput="validInputSecond(1)" onblur="actual(1)">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Email:</label>
+                                        <input type="email" class="form-control" id="email" placeholder="Enter Email"
+                                            oninput="validInputSecond(2)" onblur="actual(2)">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="ccnumber">Credit card number:</label>
+                                        <input type="text" class="form-control" id="ccnumber"
+                                            placeholder="Enter credit card" oninput="validInputSecond(3)" maxlength="12"
+                                            onblur="actual(3)">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="cards" id="visa" value="Visa"
+                                            onclick="actual(3)">
+                                        <label class="form-check-label" for="visa">
+                                            <img src="https://pngimage.net/wp-content/uploads/2018/06/visa-png-8.png"
+                                                height="100" width="140">
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="cards" id="mastercard"
+                                            value="Mastercard" onclick="actual(3)">
+                                        <label class="form-check-label" for="mastercard">
+                                            <img src="https://pluspng.com/img-png/mastercard-hd-png-other-resolutions-320-239-pixels-pluspng-com-mastercard-png-640.png"
+                                                height="100" width="120">
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="cards" id="american"
+                                            value="American Express" onclick="actual(3)">
+                                        <label class="form-check-label" for="american">
+                                            <img src="https://pngriver.com/wp-content/uploads/2018/04/Download-American-Express-PNG-Image.png"
+                                                height="100" width="100">
+                                        </label>
+                                    </div>
+                                    <br>
+                                    <br>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="terms" id="terms"
+                                            onclick="actual(3)">
+                                        <label class="form-check-label" for="terms">
+                                            I have read the terms and conditions
+                                        </label>
+                                    </div>
+                                    <br>
+                                    <button type="button" class="btn btn-primary"
+                                        onclick="mySubmitSecond()">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="row footer">
+
+            <div class="col-md">
+                <h1 style="color:black; text-shadow: 2px 2px white; text-align: center;">Juan Fernando Parra</h1>
+            </div>
+        </div>
+    </div>
+</body>
+<!--JS-->
+<script src="./js/jquery.min.js"></script>
+<script src="./js/popper.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/myscript.js"></script>
+
+</html>
